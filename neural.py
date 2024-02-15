@@ -75,7 +75,7 @@ with torch.no_grad():
 # Mesure de la précision
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Précision du modèle : {accuracy * 100:.2f}%")
-
+# Précision du modèle : 20.85%
 
 # Prédictions sur l'ensemble d'entraînement
 with torch.no_grad():
